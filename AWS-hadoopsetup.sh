@@ -6,4 +6,4 @@ gdown --id 17UWQNVdBdGlyualwWX4Cc96KyZhD-lxz
 rpm -ivh jdk-8u171-linux-x64.rpm
 rpm -ivh hadoop-1.2.1-1.x86_64.rpm --force
 echo 3 > /proc/sys/vm/drop_caches
-python3 AWS-hadoop.py
+python3 AWSHadoopSetup-CLI_Tool/AWS-hadoop.py
