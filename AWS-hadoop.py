@@ -70,7 +70,6 @@ def main():
   f1.close()
 
   if (kind.lower() == 'm') or (kind.lower() == 's'):
-    print(kind)
     hdfs = File('hdfs-site.xml')
     f2 = open(hdfs.name,'w')
     f2.write('''<?xml version="1.0"?>
