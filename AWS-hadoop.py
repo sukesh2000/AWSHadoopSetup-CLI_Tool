@@ -87,6 +87,6 @@ def main():
         cmd('hadoop-daemon.sh start namenode')
     elif kind.lower() == 's':
         cmd('hadoop-daemon.sh start datanode')
-if name == __main__:
+if __name__ == '__main__':
     main()
 
