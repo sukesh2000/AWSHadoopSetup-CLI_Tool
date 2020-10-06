@@ -28,7 +28,7 @@ def main():
                 try:
                     int(bit)
                     k = False
-                except:
+                except ValueError:
                     print('Enter integer')
         if kind.lower() == 'm':
             name = 'name'
