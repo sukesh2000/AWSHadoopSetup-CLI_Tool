@@ -1,5 +1,5 @@
 yum -y install python3
-pip install gdown 
+pip3 install gdown 
 cd /root
 gdown --id 1541gbFeGZZJ5k9Qx65D04lpeNBw87rM5
 gdown --id 17UWQNVdBdGlyualwWX4Cc96KyZhD-lxz
