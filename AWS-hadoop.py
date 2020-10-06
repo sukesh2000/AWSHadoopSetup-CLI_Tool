@@ -95,7 +95,7 @@ def main():
     cmd('cp hdfs-site.xml /etc/hadoop')
 
   if kind.lower() == 'm':
-    cmd('yes | hadoop namenode -format')
+    cmd('Y | hadoop namenode -format')
     cmd('hadoop-daemon.sh start namenode')
   elif kind.lower() == 's':
     cmd('hadoop-daemon.sh start datanode')
