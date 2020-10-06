@@ -21,6 +21,7 @@ def main():
     g = True
     while g:
         kind = input("For master enter 'M' & for slave enter 'S': ")
+        k = True
         while k:
             IP = (input('Enter the IP address: '))
             ip = IP.split('.')
@@ -36,7 +37,6 @@ def main():
             directory = '/nn'
             g = False
         elif kind.lower() == 's':
-            k = True
             name = 'data'
             cmd('mkdir /dn')
             directory = '/dn'
