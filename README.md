@@ -29,4 +29,5 @@ source AWS-hadoopsetup.sh
 Once the setup is complete, run ```jps``` command to check whether the required Hadoop setup is complete.
 
 Feel free to open an issue if you encounter a bug & PRs for optimizations are most welcome :smile:
+
 ![](https://visitor-badge.glitch.me/badge?page_id=sukesh2000.AWSHadoopSetup-CLI_Tool)
