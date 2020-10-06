@@ -21,23 +21,22 @@ def main():
     g = True
     while g:
         kind = input("For master enter 'M' & for slave enter 'S': ")
-        if kind.lower() == 'm': 
-            IP = '0.0.0.0'
+        while k:
+            IP = (input('Enter the IP address: '))
+            ip = IP.split('.')
+            for bit in ip:
+                try:
+                    int(bit)
+                    k = False
+                except:
+                    print('Enter integer')
+        if kind.lower() == 'm':
             name = 'name'
             cmd('mkdir /nn')
             directory = '/nn'
             g = False
         elif kind.lower() == 's':
             k = True
-            while k:
-                IP = (input('Enter the IP address: '))
-                ip = IP.split('.')
-                for bit in ip:
-                    try:
-                        int(bit)
-                        k = False
-                    except:
-                        print('Enter integer')
             name = 'data'
             cmd('mkdir /dn')
             directory = '/dn'
